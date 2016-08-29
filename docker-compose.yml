@@ -8,8 +8,8 @@ services:
           POSTGRES_PASSWORD: postgres
         # volumes:
     web:
-        #image:
-        build: .
+        image: hcoa/todoapi
+        #build: .
         ports:
           - "4000:4000"
         environment:
