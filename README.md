@@ -66,9 +66,9 @@ docker-compose down
 ```bash
 ecs-cli configure --region us-west-2 --access-key $AWS_ACCESS_KEY_ID --secret-key $AWS_SECRET_ACCESS_KEY --cluster ecs-cli-demo
 ```
-2. Run with command, more commands can be found in [official
-   documentation](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_CLI_tutorial.html):
+2. Run with command:
 ```bash
 ecs-cli compose --file docker-compose.yml up
 ```
 
+More commands can be found in [official documentation](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_CLI_tutorial.html)
