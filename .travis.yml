@@ -1,3 +1,4 @@
+language: elixir
 sudo: required
 services:
     - docker
